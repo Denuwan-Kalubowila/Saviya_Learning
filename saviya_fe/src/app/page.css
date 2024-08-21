@@ -14,7 +14,7 @@ main{
 
 .first-text{
     padding: 25px;
-    color: rgb(136, 142, 147);
+    color: rgb(217, 217, 217);
 }
 
 .signbox{
@@ -45,7 +45,7 @@ main{
   .signbutton{
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: black;
+    background-color: #00415A;
     color: white;
     text-align: center;
     border: none;
@@ -55,6 +55,7 @@ main{
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin: 20px;
+    font-weight: bold;
   }
 
   .signbutton:hover {
@@ -62,5 +63,28 @@ main{
   }
 
   .acc{
-    margin: auto;
+    text-align: center;
   }
+
+  .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .line {
+    flex: 1;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 0 10px;
+  }
+  
+  .or-text {
+    font-size: 16px;
+    color: #666;
+    padding: 0 10px;
+    font-weight: bold;
+  }
+  
