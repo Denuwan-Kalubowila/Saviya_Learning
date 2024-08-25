@@ -28,12 +28,19 @@ export default function SignUp() {
         </form>
 
         <p className='acc'>Already have an account?
-        <button type='button'><u>Sign In</u></button></p><br/>
+        <button type='button'><u>Sign In</u></button></p>
+
         <div className="divider">
-  <hr className="line" />
-  <span className="or-text">Sign up with</span>
-  <hr className="line" />
-</div>
+          <hr className="line" />
+          <span className="or-text">Sign up with</span>
+          <hr className="line" />
+        </div>
+        
+        <br/>
+        
+        <div>
+          <button className='fbbtn' type='button'>FaceBook</button>
+        </div>
       </div>
     </main>
   );
