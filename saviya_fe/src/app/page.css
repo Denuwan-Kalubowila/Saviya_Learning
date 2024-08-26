@@ -9,7 +9,7 @@
 
 main{
     background-color: rgb(157, 155, 155);
-    height: 100vh;
+    height: 200vh;
 }
 
 .first-text{
@@ -20,7 +20,7 @@ main{
 .signbox{
     background-color: white;
     width: 550px;
-    height: 100vh;
+    height: 150vh;
     margin: auto;
 }
 
@@ -88,6 +88,40 @@ main{
     font-weight: bold;
   }
   
-  .fbbtn{
-    font-size: larger;
+  .button-container{
+    display: flex;
+  }
+  .fbbtn {
+    display: flex;
+    background-color: #ffffff; 
+    color: rgb(61, 100, 255); 
+    padding: 10px 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .fbbtn:hover {
+    background-color: #9cbaff;
+  }
+  
+  .fbbtn:active {
+    background-color: #000000; 
+    transform: scale(0.98); 
+  }
+  
+  .btnimg{
+    width: 30px;
+    height: 30px;
+  }
+  .btntext{
+    padding: 5px;
+  }
+  .btns{
+    padding: 10px;
   }
