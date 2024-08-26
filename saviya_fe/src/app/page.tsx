@@ -42,7 +42,9 @@ export default function SignUp() {
         
         <div className='btns'>
           
-          <button className='fbbtn' type='button'><img src='./Images/fb.png' className='btnimg' alt='Facebook Image'></img><div className='btntext'>FaceBook</div></button></div>
+          <button className='fbbtn' type='button'><img src='./Images/fb.png' className='btnimg' alt='Facebook Image'></img><div className='btntext'>FaceBook</div></button>
+          <button className='fbbtn' type='button'><img src='./Images/fb.png' className='btnimg' alt='Facebook Image'></img><div className='btntext'>Google</div></button>
+          </div>
        
       </div>
     </main>

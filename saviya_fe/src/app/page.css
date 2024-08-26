@@ -8,7 +8,7 @@
 }
 
 main{
-    background-color: rgb(157, 155, 155);
+    background-color: rgb(255, 255, 255);
     height: 200vh;
 }
 
@@ -22,6 +22,7 @@ main{
     width: 550px;
     height: 150vh;
     margin: auto;
+    border: 1px solid;
 }
 
 .boxes{
@@ -78,7 +79,6 @@ main{
     border: none;
     height: 1px;
     background-color: #ccc;
-    margin: 0 10px;
   }
   
   .or-text {
@@ -88,9 +88,6 @@ main{
     font-weight: bold;
   }
   
-  .button-container{
-    display: flex;
-  }
   .fbbtn {
     display: flex;
     background-color: #ffffff; 
@@ -100,9 +97,8 @@ main{
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    width: 200px;
+    width: 150px;
     text-align: center;
-    margin-top: 10px;
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
   }
   
@@ -124,4 +120,5 @@ main{
   }
   .btns{
     padding: 10px;
+    display: flex;
   }
