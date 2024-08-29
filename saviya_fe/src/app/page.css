@@ -9,18 +9,19 @@
 
 main{
     background-color: rgb(255, 255, 255);
-    height: 200vh;
+    height: 150vh;
+    margin-top: 30px;
 }
 
 .first-text{
     padding: 25px;
-    color: rgb(217, 217, 217);
+    color: rgb(147, 147, 147);
 }
 
 .signbox{
     background-color: white;
     width: 550px;
-    height: 150vh;
+    height: 125vh;
     margin: auto;
     border: 1px solid;
 }
@@ -97,7 +98,8 @@ main{
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    width: 150px;
+    width: 190px;
+    margin-left: 10px;
     text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
   }
@@ -121,4 +123,13 @@ main{
   .btns{
     padding: 10px;
     display: flex;
+  }
+  
+  .head{
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
   }

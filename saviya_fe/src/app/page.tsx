@@ -5,6 +5,7 @@ import Image from './Images/fb.png';
 export default function SignUp() {
   return (
     <main>
+      <div className='head'>Welcome to Saviya!</div>
       <div className='signbox'>
         <h1 className='signtext'>Sign Up</h1>
         <p className='first-text'>Nice to meet you! Enter your details to register.</p>
@@ -43,7 +44,8 @@ export default function SignUp() {
         <div className='btns'>
           
           <button className='fbbtn' type='button'><img src='./Images/fb.png' className='btnimg' alt='Facebook Image'></img><div className='btntext'>FaceBook</div></button>
-          <button className='fbbtn' type='button'><img src='./Images/fb.png' className='btnimg' alt='Facebook Image'></img><div className='btntext'>Google</div></button>
+          <button className='fbbtn' type='button'><img src='./Images/google.png' className='btnimg' alt='Google Image'></img><div className='btntext'>Google</div></button>
+          <button className='fbbtn' type='button'><img src='./Images/micros.png' className='btnimg' alt='Microsoft Image'></img><div className='btntext'>Microsoft</div></button>
           </div>
        
       </div>
