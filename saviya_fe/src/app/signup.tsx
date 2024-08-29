@@ -1,8 +1,7 @@
-import './page.css';
-import Link from 'next/link';
+import './signup.css';
 
 
-export default function SignUp() {
+export default function SignIn() {
   return (
     <main>
       <div className='head'>Welcome to Saviya!</div>
@@ -31,7 +30,7 @@ export default function SignUp() {
         </form>
 
         <p className='acc'>Already have an account?
-       <Link href='/signup.tsx'><button type='button' ><u>Sign Up</u></button></Link> </p>
+        <button type='button'><u>Sign Up</u></button></p>
 
         <div className="divider">
           <hr className="line" />
