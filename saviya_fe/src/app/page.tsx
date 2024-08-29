@@ -5,6 +5,7 @@ import Image from './Images/fb.png';
 export default function SignUp() {
   return (
     <main>
+      <div className='head'>Welcome to Saviya!</div>
       <div className='signbox'>
         <h1 className='signtext'>Sign Up</h1>
         <p className='first-text'>Nice to meet you! Enter your details to register.</p>
