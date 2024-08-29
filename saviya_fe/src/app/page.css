@@ -97,7 +97,8 @@ main{
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    width: 150px;
+    width: 190px;
+    margin-right: 30px;
     text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
   }
@@ -122,3 +123,4 @@ main{
     padding: 10px;
     display: flex;
   }
+  
