@@ -1,7 +1,6 @@
 import './page.css';
 import Link from 'next/link';
 
-
 export default function SignUp() {
   return (
     <main>
@@ -31,7 +30,7 @@ export default function SignUp() {
         </form>
 
         <p className='acc'>Already have an account?
-       <Link href='/signup.tsx'><button type='button' ><u>Sign Up</u></button></Link> </p>
+       <Link href='SignIn'><button type='button' ><u>Sign Up</u></button></Link> </p>
 
         <div className="divider">
           <hr className="line" />
