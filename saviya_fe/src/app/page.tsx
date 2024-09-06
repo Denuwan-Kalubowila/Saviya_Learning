@@ -1,5 +1,6 @@
-import './page.css';
+import './pages/page.css';
 import Link from 'next/link';
+import React from 'react';
 
 export default function SignUp() {
   return (
@@ -30,7 +31,7 @@ export default function SignUp() {
         </form>
 
         <p className='acc'>Already have an account?
-       <Link href='SignIn'><button type='button' ><u>Sign Up</u></button></Link> </p>
+       <Link href='/signup'><button type='button' ><u>Sign Up</u></button></Link> </p>
 
         <div className="divider">
           <hr className="line" />
