@@ -1,21 +1,30 @@
 import './signup.css';
+import React from 'react';
 
 export default function SignIn() {
   return (
     <main>
       <div className='head'>Welcome to Saviya!</div>
+      
+
       <div className='signbox'>
-        <h1 className='signtext'>Sign In</h1>
+        <h1 className='signtext'>Sign Up</h1>
         <p className='first-text'>Nice to meet you! Enter your details to register.</p>
 
         <form>
-          <h3 className='boxes'>Your Name</h3>
+          <h3 className='boxes'>Full Name</h3>
           <input type='text' className='name-input' placeholder='Enter Your Name' />
 
-          <h3 className='boxes'>Your Email</h3>
+          <h3 className='boxes'>Email</h3>
           <input type='email' className='name-input' placeholder='Enter Your Email' />
 
+          <h3 className='boxes'>Phone Number</h3>
+          <input type='phonenumber' className='name-input' placeholder='Enter Your Phone Number' />
+
           <h3 className='boxes'>Password</h3>
+          <input type='password' className='name-input' placeholder='Enter Your Password' />
+
+          <h3 className='boxes'>Confirm Password</h3>
           <input type='password' className='name-input' placeholder='Enter Your Password' />
 
           <div className="content-inline" style={{ display: 'inline-flex', alignItems: 'center' }}>
@@ -24,12 +33,12 @@ export default function SignIn() {
           </div>
 
           <div className='signbutton'>
-            <button type='submit'>SIGN IN</button>
+            <button type='submit'>SIGN UP</button>
           </div>
         </form>
 
         <p className='acc'>Already have an account?
-        <button type='button'><u>Sign Up</u></button></p>
+        <button type='button' ><u>Sign Up</u></button></p>
 
         <div className="divider">
           <hr className="line" />
